@@ -1,7 +1,7 @@
 ## LaunchForge Program
 
 ### Introduction
-The Startup-Apps program is a Python script designed to manage and execute a list of startup programs defined in a configuration file. It provides functionalities to start these programs with specified delays and retry mechanisms. The program also includes a health check loop to monitor the status of the executed processes and restart them if necessary.
+The LaunchForge program is a Python script designed to manage and execute a list of startup programs defined in a configuration file. It provides functionalities to start these programs with specified delays and retry mechanisms. The program also includes a health check loop to monitor the status of the executed processes and restart them if necessary.
 
 ### Features
 - Configurable startup programs with delay and retry settings.
@@ -14,7 +14,7 @@ The Startup-Apps program is a Python script designed to manage and execute a lis
 - logging library
 
 ### Installation
-1. Clone or download the repository containing the Startup-Apps program.
+1. Clone or download the repository containing the LaunchForge program.
 2. Ensure Python 3.x is installed on your system.
 3. Install the required libraries using pip:
    ```

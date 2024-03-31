@@ -1,0 +1,34 @@
+{
+	"startup_programs": [
+		{
+			"path": "C:\\Program Files (x86)\\VB\\Voicemeeter\\voicemeeter8.exe",
+			"delay": 10,
+      "retry_delay": 5
+		},
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\wallpaper_engine\\wallpaper64.exe",
+      "delay": 15,
+      "retry_delay": 5
+    },
+		{
+      "path": "C:\\Program Files (x86)\\Steam\\steam.exe",
+			"delay": 30,
+      "retry_delay": 5
+		},
+    {
+      "path": "C:\\Program Files (x86)\\MSI Afterburner\\MSIAfterburner.exe",
+      "delay": 40,
+      "retry_delay": 5
+    },
+    {
+      "path": "C:\\Program Files\\Focusrite\\Drivers\\Focusrite Notifier.exe",
+      "delay": 60,
+      "retry_delay": 5
+    },
+    {
+      "path": "C:\\Program Files\\Rainmeter\\Rainmeter.exe",
+      "delay": 80,
+      "retry_delay": 5
+    }
+	]
+}

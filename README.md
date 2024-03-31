@@ -68,6 +68,21 @@ The program logs detailed information to a file named `Startup Programs.log` in 
 - `level`: Severity level of the log entry (e.g., INFO, ERROR).
 - `message`: Log message providing information about program execution.
 
+### Using Startup Folder to start LaunchForge
+`Open Startup Folder`: Press Windows + R to open the Run dialog, then type shell:startup and hit Enter. This will open the Startup folder.
+
+`Create Shortcut`:
+ - Right-click inside the Startup folder and select "New" > "Shortcut".
+ - In the "Create Shortcut" wizard, click "Browse" and navigate to the Python executable (python.exe) installed on your system.
+ - Select the Python executable and click "Next".
+ - In the "Type the location of the item" field, append the full path to the LaunchForge script (launchforge.py) separated by a space.
+ - Click "Next" and provide a name for the shortcut (e.g., "LaunchForge").
+ - Click "Finish" to create the shortcut.
+
+`Verification`:
+ - Restart your computer or log out and log back in to test if LaunchForge launches automatically.
+ - Verify that LaunchForge starts along with Windows by checking if your configured startup programs are launched.
+
 ### License
 This program is licensed under the MIT License. See the `LICENSE` file for details.
 

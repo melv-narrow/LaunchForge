@@ -1,3 +1,6 @@
+# DEPRECATED: This file is the LaunchForge v1 implementation and is kept for
+# reference only. Please use the `launchforge` package (v2) instead.
+# Run: python -m launchforge run --config config.toml
 import argparse
 import logging
 import os

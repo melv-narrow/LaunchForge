@@ -1,3 +1,5 @@
+# DEPRECATED: This GUI is the LaunchForge v1 tkinter implementation and is kept
+# for reference only. The v2 system tray UI is in launchforge/tray.py.
 import tkinter as tk
 from tkinter import messagebox
 import startup_apps as main

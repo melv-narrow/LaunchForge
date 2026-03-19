@@ -1,0 +1,54 @@
+# LaunchForge configuration file
+# Migrate from config.json to TOML for comments support and cleaner syntax.
+
+[settings]
+health_check_interval = 30   # seconds between health checks
+max_retries = 3               # how many times to retry a failed launch
+profile = "default"           # active launch profile ("default" = all programs)
+log_file = "launchforge.log"
+log_max_bytes = 5242880       # 5 MB
+log_backup_count = 3
+
+[[programs]]
+name = "Voicemeeter"
+path = "C:/Program Files (x86)/VB/Voicemeeter/voicemeeter8.exe"
+delay = 10
+retry_delay = 5
+group = "audio"
+
+[[programs]]
+name = "Wallpaper Engine"
+path = "D:/SteamLibrary/steamapps/common/wallpaper_engine/wallpaper64.exe"
+delay = 15
+retry_delay = 5
+depends_on = ["Voicemeeter"]
+group = "desktop"
+
+[[programs]]
+name = "Steam"
+path = "C:/Program Files (x86)/Steam/steam.exe"
+delay = 5
+retry_delay = 5
+depends_on = ["Wallpaper Engine"]
+group = "gaming"
+
+[[programs]]
+name = "MSI Afterburner"
+path = "C:/Program Files (x86)/MSI Afterburner/MSIAfterburner.exe"
+delay = 40
+retry_delay = 5
+group = "system"
+
+[[programs]]
+name = "Focusrite Notifier"
+path = "C:/Program Files/Focusrite/Drivers/Focusrite Notifier.exe"
+delay = 60
+retry_delay = 5
+group = "audio"
+
+[[programs]]
+name = "Rainmeter"
+path = "C:/Program Files/Rainmeter/Rainmeter.exe"
+delay = 80
+retry_delay = 5
+group = "desktop"
